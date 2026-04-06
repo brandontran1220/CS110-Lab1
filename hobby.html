@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Brandon's Hobby</title>
+        <link rel="stylesheet" href="hobby.css" />
+    </head>
+    <body>
+        <div class="page">
+            <h1>Volleyball</h1>
+            <p class="intro">Volleyball is one of my favorite hobbies because it is fun, active, and a good way to spend time with friends.</p>
+            <div class="top-section">
+                <div class="box">
+                    <h2>Why I Like It</h2>
+                    <ul>
+                        <li>It helps me stay active.</li>
+                        <li>I like playing with a team.</li>
+                        <li>It is exciting and fast.</li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h2>Favorite Things</h2>
+                    <ul>
+                        <li>Serving the ball</li>
+                        <li>Acing my friends (Aaron Huynh)</li>
+                        <li>Blocking my friends (Aaron Huynh)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="media-section">
+                <div class="box media-box">
+                    <h2>Volleyball Image</h2>
+                    <img
+                        src="img/volleyball.avif"
+                        alt="People playing volleyball"
+                    />
+                </div>
+
+                <div class="box media-box">
+                    <h2>Volleyball Video</h2>
+                    <iframe
+                        src="https://www.youtube.com/embed/p3q1EQwRVWU"
+                        title="Volleyball video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                    <p><a href="https://www.youtube.com/watch?v=p3q1EQwRVWU" target="_blank">Open the video in YouTube</a></p>
+                </div>
+            </div>
+
+            <div class="box form-box">
+                <h2>Volleyball Form</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" />
+
+                    <label for="position">Favorite Position:</label>
+                    <select id="position" name="position">
+                        <option>Setter</option>
+                        <option>Outside Hitter</option>
+                        <option>Libero</option>
+                        <option>Middle Blocker</option>
+                    </select>
+
+                    <label for="play">Do you play volleyball?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="play" value="yes" /> Yes</label>
+                        <label><input type="radio" name="play" value="no" /> No</label>
+                    </div>
+
+                    <label for="message">Why do you like volleyball?</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write here"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="bottom-link">
+                <a href="index.html">Go back to my main page</a>
+            </div>
+        </div>
+    </body>
+</html>
