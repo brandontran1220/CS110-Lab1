@@ -1,0 +1,74 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    margin: 32px auto;
+    padding: 24px;
+    background: #B7C9E2;
+}
+
+.top-heading {
+    color: rgb(13, 133, 2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-heading h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.top-heading h2 {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    font-weight: 500;
+}
+
+.profile-image {
+    display: block;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #111827;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    margin: 0;
+    padding-left: 1.1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    color: #334155;
+}
+
+p {
+    font-size: 0.98rem;
+    margin: 0.65rem 0;
+    color: #475569;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 1.8rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.small-image {
+    display: inline-block;
+    max-width: 50px;
+    width: 50px;
+    color: #111827;
+}
